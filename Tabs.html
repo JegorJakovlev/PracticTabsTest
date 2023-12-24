@@ -2,41 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tabs</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Tabs Working</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+ <h2>Tabs</h2>
 <body>
-
-<div class="tabs">
-  <h2>Tabs</h2>
-  <div class="tab-content">
-    <div class="tab-pane">
-      <h3 class="master-title">Master</h3>
-      <div class="content">
-    
-      </div>
-    </div>
-    <div class="tab-pane">
-      <h3 class="about-title">About</h3>
-      <div class="content">
-      
-      </div>
-    </div>
-    <div class="tab-pane">
-      <h3 class="sitelinks-title">Sitelinks</h3>
-      <div class="underline"></div> 
-      <div class="content">
-      
-      </div>
-    </div>
-    <div class="tab-pane">
-      <h3 class="business-title">Business relations</h3>
-      <div class="content">
-        
-      </div>
-    </div>
+  <div class="tabs">
+    <button class="tab" onclick="openTab('tab1')">Master</button>
+    <button class="tab" onclick="openTab('tab2')">About</button>
+    <button class="tab" onclick="openTab('tab3')">Sitelinks</button>
+    <button class="tab" onclick="openTab('tab4')">Business relations</button>
+    <span class="indicator"></span>
   </div>
-</div>
 
+  <div id="tab1" class="tabcontent master">
+    <p>Default</p>
+    <p>Hover</p>
+    <p>Selected</p>
+  </div>
+  <div id="tab2" class="tabcontent about">
+    <p>About</p>
+    <p>About</p>
+    <p>About</p>
+  </div>
+  <div id="tab3" class="tabcontent sitelinks">
+    <p>Sitelinks</p>
+    <p>Sitelinks</p>
+    <p>Sitelinks</p>
+  </div>
+  <div id="tab4" class="tabcontent business-relations">
+    <p>Business relations</p>
+    <p>Business relations</p>
+    <p>Business relations</p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

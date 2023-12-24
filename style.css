@@ -1,0 +1,133 @@
+h2 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+    color: #324152;
+    font-size: 28px;
+  }
+  
+  .tabs {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    position: relative;
+    width: 40%;
+  }
+  
+  .tab {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 5px;
+  }
+  
+  .indicator {
+    height: 5px;
+    background-color: blue;
+    border-radius: 45px;
+    transition: width 0.3s ease, margin-left 0.3s ease;
+    position: absolute;
+    bottom: -1px;
+    left: 20px;
+    width: 29px !important;
+  }
+  
+  .tabcontent {
+    display: none;
+  }
+  
+  .tabcontent.show {
+    display: block;
+  }
+  
+  .tab:nth-child(1) {
+    margin-left: 10px; 
+    font-size: 14px;
+    font-family: 'Inter', Arial, sans-serif; 
+    font-weight: 400; 
+    color: #324152;
+  }
+  
+  .tab:nth-child(2) {
+    margin-left: 50px; 
+    color: #324152; 
+    opacity: 0.6;
+    font-family: 'Inter', Arial, sans-serif; 
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .tab:nth-child(3) {
+    margin-left: 3px; 
+    color: #324152;
+    font-weight: bold;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .tab:nth-child(4) {
+    margin-left: 1px; 
+    color: #324152;
+    opacity: 0.6;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  
+  .tabcontent.master {
+    font-weight: 400; 
+    font-size: 14px;
+    font-family: 'Inter', Arial, sans-serif; 
+  }
+  
+  .tabcontent.about {
+    color: #324152;
+    font-family: 'Inter', Arial, sans-serif; 
+    font-weight: 600; 
+    font-size: 14px; 
+  }
+  .tabcontent.about p:first-child {
+    color: #324152;
+    font-family: 'Inter', Arial, sans-serif; 
+    font-weight: 600; 
+    font-size: 14px; 
+    opacity: 0.6; 
+  
+  }
+  
+  .tabcontent.sitelinks {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 14px;
+    color: #324152;
+    font-weight: bold; 
+  }
+  .tabcontent.sitelinks p:first-child {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 14px;
+    color: #324152;
+    font-weight: bold; 
+    opacity: 0.6;
+  
+  }
+  
+  
+  .tabcontent.business-relations {
+    color: #324152;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: bold; 
+  }
+  
+  .tabcontent.business-relations p:first-child {
+    color: #324152;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: bold; 
+    opacity: 0.6;
+  }
+  
+  
