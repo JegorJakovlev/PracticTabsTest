@@ -54,6 +54,7 @@ h2 {
   .tab:nth-child(1) {
     margin-left: 10px; 
     font-size: 14px;
+    opacity: 0.6;
     font-family: 'Inter', Arial, sans-serif; 
     font-weight: 400; 
     color: #324152;
@@ -71,6 +72,7 @@ h2 {
   .tab:nth-child(3) {
     margin-left: 3px; 
     color: #324152;
+    opacity: 0.6;
     font-weight: bold;
     font-family: 'Inter', Arial, sans-serif;
     font-size: 14px;
@@ -139,3 +141,24 @@ h2 {
   }
   
   
+.tab {
+  transition: color 0.3s ease, opacity 0.3s ease; 
+}
+
+.tab:hover {
+  color: #324152; 
+}
+
+.tab.selected {
+  color: #324152;
+  opacity: 1; 
+}
+
+
+.tabcontent p {
+  opacity: 0.6; 
+}
+
+.tabcontent.show p {
+  opacity: 1; 
+}
